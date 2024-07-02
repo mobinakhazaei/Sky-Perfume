@@ -318,9 +318,14 @@ h2.separator {
 }
 
 .view-more a:hover,
-.view-less a:hover {
+.view-less a:hover
+{
     color: #fff;
     background: #0f2182;
+}
+.view-more a:hover svg,
+.view-less a:hover svg{
+    fill: #fff!important;
 }
 
 .view-more a svg,
